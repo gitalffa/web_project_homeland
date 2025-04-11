@@ -1,0 +1,22 @@
+.footer__copy{
+  font-family: 'inter', sans-serif;
+  color: white;
+  margin: 100px auto 30px auto;
+  display: block;
+}
+@media (max-width: 1024px) {
+  .footer__copy{
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    color: white;
+    margin: 100px auto 30px auto;
+  }
+}
+@media (max-width: 544px) {
+  .footer__copy{
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    color: white;
+    margin: 100px auto 30px auto;
+  }
+}
