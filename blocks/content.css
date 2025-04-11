@@ -1,0 +1,157 @@
+.content {
+  background-color: #2A2C2F;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start; /* Centra horizontalmente los hijos */
+  width: 984px;
+}
+
+.content__image {
+  width: 984px;
+  height: 615px;
+  margin: 0 auto;
+}
+
+.content__title {
+  color: white;
+  margin-top: 20px;     /* Espacio entre imagen y texto */
+  width: 830px;          /* Igual que la imagen */
+  font-size: 54px;
+  font-weight: bold;
+  font-family: 'inter', sans-serif;
+  margin-top: 100px;
+}
+.content__text{
+  color: white;
+  font-size: 24px;
+  line-height: 1.5;
+  width: 738px;          /* Igual que la imagen */
+  font-family: 'inter', sans-serif;
+}
+.content__autor{
+  color: white;
+  font-size: 24px;
+  font-family: 'inter', sans-serif;
+  display: block;
+  text-align: right;
+  margin-bottom: 30px;
+}
+.content__descrition{
+  width: 722px;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'inter', sans-serif;
+}
+.content__copy{
+  font-family: 'inter', sans-serif;
+  color: white;
+  margin: 100px auto 30px auto;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    background-color: #2A2C2F;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start; /* Centra horizontalmente los hijos */
+    width: 768px;
+  }
+
+  .content__image {
+    width: 768px;
+    height: 480px;
+    margin: 0 auto;
+  }
+
+  .content__title {
+    color: white;
+    margin-top: 20px;     /* Espacio entre imagen y texto */
+    width: 707px;          /* Igual que la imagen */
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'inter', sans-serif;
+    margin-top: 100px;
+  }
+  .content__text{
+    color: white;
+    font-size: 24px;
+    line-height: 1.5;
+    width: 720px;          /* Igual que la imagen */
+    font-family: 'inter', sans-serif;
+  }
+  .content__autor{
+    color: white;
+    font-size: 24px;
+    font-family: 'inter', sans-serif;
+    display: block;
+    text-align: right;
+    margin-bottom: 30px;
+  }
+  .content__descrition{
+    width: 720px;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'inter', sans-serif;
+  }
+  .content__copy{
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    color: white;
+    margin: 100px auto 30px auto;
+  }
+}
+@media (max-width: 544px) {
+  .content {
+    background-color: #2A2C2F;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start; /* Centra horizontalmente los hijos */
+    width: 320px;
+  }
+
+  .content__image {
+    width: 320px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .content__title {
+    color: white;
+    margin-top: 20px;     /* Espacio entre imagen y texto */
+    width: 288px;          /* Igual que la imagen */
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'inter', sans-serif;
+    margin-top: 100px;
+  }
+  .content__text{
+    color: white;
+    font-size: 24px;
+    line-height: 1.5;
+    width: 288px;          /* Igual que la imagen */
+    font-family: 'inter', sans-serif;
+  }
+  .content__autor{
+    color: white;
+    font-size: 24px;
+    font-family: 'inter', sans-serif;
+    display: block;
+    text-align: right;
+    margin-bottom: 30px;
+  }
+  .content__descrition{
+    width: 288px;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'inter', sans-serif;
+  }
+  .content__copy{
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    color: white;
+    margin: 100px auto 30px auto;
+  }
+}
