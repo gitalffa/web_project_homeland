@@ -1,8 +1,9 @@
 .kentucky {
-  background-color: #2A2C2F;
+  margin: auto;
+  background-color: #2a2c2f;
   display: flex;
   flex-direction: column;
-  align-items:flex-start; /* Centra horizontalmente los hijos */
+  align-items: flex-start; /* Centra horizontalmente los hijos */
   width: 984px;
 }
 
@@ -14,43 +15,42 @@
 
 .kentucky__title {
   color: white;
-  margin-top: 20px;     /* Espacio entre imagen y texto */
-  width: 830px;          /* Igual que la imagen */
+  margin-top: 20px; /* Espacio entre imagen y texto */
+  width: 830px; /* Igual que la imagen */
   font-size: 54px;
   font-weight: bold;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   margin-top: 100px;
 }
-.kentucky__text{
+.kentucky__text {
   color: white;
   font-size: 24px;
   line-height: 1.5;
-  width: 738px;          /* Igual que la imagen */
-  font-family: 'inter', sans-serif;
+  width: 738px; /* Igual que la imagen */
+  font-family: "inter", sans-serif;
 }
-.kentucky__autor{
+.kentucky__autor {
   color: white;
   font-size: 24px;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   display: block;
   text-align: right;
   margin-bottom: 30px;
 }
-.kentucky__descrition{
+.kentucky__descrition {
   width: 722px;
   color: white;
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
 }
-
 
 @media (max-width: 1024px) {
   .kentucky {
-    background-color: #2A2C2F;
+    background-color: #2a2c2f;
     display: flex;
     flex-direction: column;
-    align-items:flex-start; /* Centra horizontalmente los hijos */
+    align-items: flex-start; /* Centra horizontalmente los hijos */
     width: 768px;
   }
 
@@ -62,43 +62,42 @@
 
   .kentucky__title {
     color: white;
-    margin-top: 20px;     /* Espacio entre imagen y texto */
-    width: 707px;          /* Igual que la imagen */
+    margin-top: 20px; /* Espacio entre imagen y texto */
+    width: 707px; /* Igual que la imagen */
     font-size: 45px;
     font-weight: bold;
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
     margin-top: 100px;
   }
-  .kentucky__text{
+  .kentucky__text {
     color: white;
     font-size: 24px;
     line-height: 1.5;
-    width: 720px;          /* Igual que la imagen */
-    font-family: 'inter', sans-serif;
+    width: 720px; /* Igual que la imagen */
+    font-family: "inter", sans-serif;
   }
-  .kentucky__autor{
+  .kentucky__autor {
     color: white;
     font-size: 24px;
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
     display: block;
     text-align: right;
     margin-bottom: 30px;
   }
-  .kentucky__descrition{
+  .kentucky__descrition {
     width: 720px;
     color: white;
     font-size: 16px;
     line-height: 1.5;
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
   }
-
 }
 @media (max-width: 544px) {
   .kentucky {
-    background-color: #2A2C2F;
+    background-color: #2a2c2f;
     display: flex;
     flex-direction: column;
-    align-items:flex-start; /* Centra horizontalmente los hijos */
+    align-items: flex-start; /* Centra horizontalmente los hijos */
     width: 320px;
   }
 
@@ -110,34 +109,33 @@
 
   .kentucky__title {
     color: white;
-    margin-top: 20px;     /* Espacio entre imagen y texto */
-    width: 288px;          /* Igual que la imagen */
+    margin-top: 20px; /* Espacio entre imagen y texto */
+    width: 288px; /* Igual que la imagen */
     font-size: 32px;
     font-weight: bold;
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
     margin-top: 100px;
   }
-  .kentucky__text{
+  .kentucky__text {
     color: white;
     font-size: 24px;
     line-height: 1.5;
-    width: 288px;          /* Igual que la imagen */
-    font-family: 'inter', sans-serif;
+    width: 288px; /* Igual que la imagen */
+    font-family: "inter", sans-serif;
   }
-  .kentucky__autor{
+  .kentucky__autor {
     color: white;
     font-size: 24px;
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
     display: block;
     text-align: right;
     margin-bottom: 30px;
   }
-  .kentucky__descrition{
+  .kentucky__descrition {
     width: 288px;
     color: white;
     font-size: 16px;
     line-height: 1.5;
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
   }
-
 }
