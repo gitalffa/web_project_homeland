@@ -72,3 +72,37 @@
   font-size: 18px;
   line-height: 1.6;
 }
+@media (max-width: 1024px) {
+  .place__image {
+    width: 352px;
+  }
+  .place_title {
+    font-size: 42px;
+    line-height: 1.1;
+    width: 352px;
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 544px) {
+  .places {
+    width: 320px;
+  }
+  .place__image {
+    width: 320px;
+  }
+  .place_title {
+    font-size: 32px;
+    line-height: 1.1;
+    width: 288px;
+    margin-bottom: 35px;
+  }
+  .places__place {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .place__text {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
