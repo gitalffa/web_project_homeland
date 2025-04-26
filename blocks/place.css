@@ -100,54 +100,32 @@
   font-size: 18px;
   line-height: 1.6;
 }
-@media (max-width: 1024px) {
-  .place__image {
-    width: 352px;
-  }
-  .place_title {
-    font-size: 42px;
-    line-height: 1.1;
-    width: 352px;
-    margin-bottom: 35px;
-  }
-}
-@media (max-width: 544px) {
-  .place__image {
-    width: 320px;
+/* Estilos base: desktop (1280px en adelante) */
+
+/* Tablet: menor a 1280px */
+@media (max-width: 1279px) and (min-width: 768px) {
+  /* Estilos para tablets */
+  .place__description {
+    padding-top: 40px;
   }
   .place__title {
-    font-size: 32px;
+    font-size: 42px;
     line-height: 1.1;
-    width: 288px;
-    margin-bottom: 35px;
+    color: white;
+    width: 340px;
   }
-  .places__place {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  .place__image-wrapper {
+    position: relative;
+    width: 340px;
+    height: auto;
   }
   .place__text {
     font-size: 16px;
     line-height: 1.6;
-    width: 320px;
   }
-  .place {
-    display: flex;
-    flex-direction: column;
-  }
-  .place__degree {
-    width: 320px;
-  }
-  .place__artista {
-    padding-left: 0;
-  }
-  .place__editor {
-    width: 320px;
-  }
-  .place__gerente {
-    width: 320px;
-  }
-  .place__image-wrapper {
-    width: 320px;
-  }
+}
+
+/* Móvil: menor a 768px */
+@media (max-width: 767px) {
+  /* Estilos para móviles */
 }

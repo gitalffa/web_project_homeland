@@ -1,15 +1,15 @@
-header{
-  background-color: #2A2C2F;
+header {
+  background-color: #2a2c2f;
   display: flex;
   flex-direction: column;
 }
-.header__logo{
+.header__logo {
   margin: 0 auto 0 auto;
   width: 258px;
   height: 69px;
   margin-top: 34px;
 }
-.header__title{
+.header__title {
   color: white;
   font-size: 96px;
   font-weight: bold;
@@ -17,10 +17,9 @@ header{
   margin: 0 auto 0 auto;
   width: 720px;
   text-align: center;
-  font-family: 'inter', sans-serif;
-
+  font-family: "inter", sans-serif;
 }
-.header__subtitle{
+.header__subtitle {
   color: white;
   font-size: 30px;
   font-weight: normal;
@@ -28,50 +27,31 @@ header{
   margin: 0 auto 0 auto;
   width: 720px;
   text-align: center;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
 }
-@media (max-width: 1024px) {
-  .header__logo {
-    width: 254px;
-    height: 66px;
-    margin-top: 34px;
-  }
-  .header__title{
-    color: white;
-    font-size: 75px;
-    font-weight: bold;
-    line-height: 1.5;
-    margin: 0 auto 0 auto;
-    width: 530px;
-    text-align: center;
-    font-family: 'inter', sans-serif;
-  }
+/* Estilos base (para pantallas grandes, >=1280px) */
 
+/* Tablet: menor a 1280px hasta 768px */
+@media (max-width: 1279px) and (min-width: 769px) {
+  /* Estilos para pantallas tipo tablet */
+  .header__title {
+    font-size: 75px;
+    width: 530px;
+    line-height: 1;
+  }
+  .header__subtitle {
+    line-height: 1;
+    width: 720px;
+    margin-top: 30px;
+  }
 }
-@media (max-width: 544px) {
-  .header__logo {
-    width: 188px;
-    height: 52px;
-    margin-top: 34px;
-  }
-  .header__title{
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 1.5;
-    margin: 0 auto 0 auto;
-    width: 228px;
-    text-align: center;
-    font-family: 'inter', sans-serif;
-  }
-  .header__subtitle{
-    color: white;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 1.5;
-    margin: 0 auto 0 auto;
-    width: 288px;
-    text-align: center;
-    font-family: 'inter', sans-serif;
-  }
+
+/* Móvil grande: menor o igual a 768px hasta 320px */
+@media (max-width: 768px) and (min-width: 321px) {
+  /* Estilos para móviles grandes */
+}
+
+/* Móvil pequeño: 320px o menos */
+@media (max-width: 320px) {
+  /* Estilos para móviles pequeños */
 }

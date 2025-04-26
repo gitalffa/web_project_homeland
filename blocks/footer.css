@@ -1,22 +1,17 @@
-.footer__copy{
-  font-family: 'inter', sans-serif;
+.footer__copy {
+  font-family: "inter", sans-serif;
   color: white;
   margin: 100px auto 30px auto;
   display: block;
 }
-@media (max-width: 1024px) {
-  .footer__copy{
-    font-family: 'inter', sans-serif;
-    font-size: 14px;
-    color: white;
-    margin: 100px auto 30px auto;
-  }
+/* Estilos base: desktop (1280px en adelante) */
+
+/* Tablet: menor a 1280px */
+@media (max-width: 1279px) and (min-width: 768px) {
+  /* Estilos para tablets */
 }
-@media (max-width: 544px) {
-  .footer__copy{
-    font-family: 'inter', sans-serif;
-    font-size: 14px;
-    color: white;
-    margin: 100px auto 30px auto;
-  }
+
+/* Móvil: menor a 768px */
+@media (max-width: 767px) {
+  /* Estilos para móviles */
 }
