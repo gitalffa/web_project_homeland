@@ -1,2 +1,5 @@
-.main {
+@media (max-width: 544px) {
+  .content {
+    width: 320px;
+  }
 }
