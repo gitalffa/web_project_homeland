@@ -8,15 +8,11 @@
 
 /* Estilos base: desktop (1280px en adelante) */
 
-/* Tablet: menor a 1280px */
-@media (max-width: 1279px) and (min-width: 768px) {
-  /* Estilos para tablets */
-  .places {
-    width: 768px;
-  }
-}
-
-/* Móvil: menor a 768px */
+/* Móvil grande: menor o igual a 768px hasta 320px */
 @media (max-width: 767px) {
-  /* Estilos para móviles */
+  /* Estilos para móviles grandes */
+  .places {
+    width: 320px;
+    margin: 0;
+  }
 }

@@ -5,6 +5,7 @@
 .place__image-title {
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 .place__title {
   font-family: "inter", sans-serif;
@@ -18,7 +19,6 @@
 .place__image-wrapper {
   position: relative;
   width: 460px;
-  height: auto;
 }
 
 .place__image {
@@ -48,6 +48,7 @@
   justify-content: center; /* centra horizontalmente */
   align-items: center; /* centra verticalmente */
   margin-top: 50px;
+  margin-left: 10px;
   width: 289px;
   height: 48px;
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
@@ -113,11 +114,13 @@
     line-height: 1.1;
     color: white;
     width: 340px;
+    margin-left: 10px;
   }
   .place__image-wrapper {
     position: relative;
     width: 340px;
     height: auto;
+    margin-left: 10px;
   }
   .place__text {
     font-size: 16px;
@@ -128,4 +131,34 @@
 /* Móvil: menor a 768px */
 @media (max-width: 767px) {
   /* Estilos para móviles */
+  .place {
+    display: flex;
+    flex-direction: column;
+  }
+  .place__title {
+    font-size: 32px;
+    line-height: 1.1;
+    color: white;
+    width: 288px;
+    margin-left: 10px;
+  }
+  .place__text {
+    font-size: 16px;
+    line-height: 1.6;
+    width: 288px;
+  }
+  .place__image {
+    box-shadow: none;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .place__image-wrapper {
+    position: relative;
+    width: 320px;
+    height: auto;
+  }
+  .place__artista {
+    padding-left: 5px;
+  }
 }

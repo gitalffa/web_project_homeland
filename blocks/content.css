@@ -11,9 +11,6 @@
 /* Tablet: menor a 1280px */
 @media (max-width: 1279px) and (min-width: 768px) {
   /* Estilos para tablets */
-  .content {
-    max-width: 768px;
-  }
 }
 
 /* Móvil: menor a 768px */
