@@ -6,7 +6,14 @@
   align-items: flex-start;
 }
 
-/* Estilos base: desktop (1280px en adelante) */
+/* Tablet: menor a 1280px */
+@media (max-width: 1279px) and (min-width: 768px) {
+  /* Estilos para tablets */
+  .places {
+    width: 100%;
+    margin: 0;
+  }
+}
 
 /* Móvil grande: menor o igual a 768px hasta 320px */
 @media (max-width: 767px) {
