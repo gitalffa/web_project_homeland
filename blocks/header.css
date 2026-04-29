@@ -32,8 +32,12 @@ header {
 /* Estilos base (para pantallas grandes, >=1280px) */
 
 /* Tablet: menor a 1280px hasta 768px */
-@media (max-width: 1279px) and (min-width: 769px) {
+@media (max-width: 1279px) and (min-width: 768px) {
   /* Estilos para pantallas tipo tablet */
+  .header__logo {
+    width: 254px;
+    height: 66px;
+  }
   .header__title {
     font-size: 75px;
     width: 530px;
@@ -47,11 +51,26 @@ header {
 }
 
 /* Móvil grande: menor o igual a 768px hasta 320px */
-@media (max-width: 768px) and (min-width: 321px) {
+@media (max-width: 767px) {
   /* Estilos para móviles grandes */
-}
+  .header__logo {
+    margin: 0 auto 0 auto;
+    width: 188px;
+    height: 52px;
+    margin-top: 34px;
+  }
+  .header__title {
+    color: white;
+    font-size: 40px;
 
-/* Móvil pequeño: 320px o menos */
-@media (max-width: 320px) {
-  /* Estilos para móviles pequeños */
+    width: 228px;
+    text-align: center;
+    font-family: "inter", sans-serif;
+  }
+  .header__subtitle {
+    font-size: 16px;
+    width: 288px;
+    text-align: center;
+    font-family: "inter", sans-serif;
+  }
 }
