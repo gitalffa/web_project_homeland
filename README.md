@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+
 # De Patria a Patria 🌍
+
 =======
+
 # Tripleten web_project_homeland
 
 Proyecto del spring 5 del bootcamp tripleten Homeland
@@ -13,7 +16,8 @@ Proyecto del spring 5 del bootcamp tripleten Homeland
 # Instalación
 
 Clona este repositorio:
->>>>>>> 8316d7f57774639c30bf9697551c6d8466e2b928
+
+> > > > > > > 8316d7f57774639c30bf9697551c6d8466e2b928
 
 > Página editorial que celebra los lugares de origen de los integrantes del equipo TripleTen — un viaje de Kentucky a Burundi pasando por Gales y Tepic. Proyecto del Sprint 5 del Bootcamp TripleTen.
 
@@ -21,6 +25,11 @@ Clona este repositorio:
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![BEM](https://img.shields.io/badge/BEM-000000?style=flat&logoColor=white)
+
+## 📸 Vista previa
+
+![Vista principal](./screenshot1.png)
+![Tarjetas](./screenshot2.png)
 
 ## 🔗 Demo en vivo
 
@@ -136,12 +145,15 @@ Desarrollador Web Full Stack | Bootcamp TripleTen | Tepic, Nayarit 🌵
 ---
 
 ## 📄 Licencia
+
 =======
+
 # git pages
 
 https://gitalffa.github.io/web_project_homeland/
 
 # Licencia
->>>>>>> 8316d7f57774639c30bf9697551c6d8466e2b928
+
+> > > > > > > 8316d7f57774639c30bf9697551c6d8466e2b928
 
 Este proyecto está bajo la Licencia MIT.
